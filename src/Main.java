@@ -65,28 +65,35 @@ public class Main {
 //Mooci Exercise 'TacoBoxes - Part 2 & 2' <- End
 
 //Mooci Exercise: 'Interface In A Box - Parts 1-4' <- Start
-            Books book1 = new Books("Fyodor Dostoevsky", "Crime and Punishment", 2);
-            Books book2 = new Books("Robert Martin", "Clean Code", 1);
-            Books book3 = new Books("Kent Beck", "Test Driven Development", 0.5);
-            CDs cd1 = new CDs("Pink Floyd", "Dark Side of the Moon", 1973);
-            CDs cd2 = new CDs("Wigwam", "Nuclear Nightclub", 1975);
-            CDs cd3 = new CDs("Rendezvous Park", "Closer to Being Here", 2012);
-            System.out.println(book1.toString());
-            System.out.println(book2.toString());
-            System.out.println(book3.toString());
-            System.out.println(cd1.toString());
-            System.out.println(cd2.toString());
-            System.out.println(cd3.toString());
-
-            Box box = new Box(10);
-            box.add(new Books("Fyodor Dostoevsky", "Crime and Punishment", 2)) ;
-            box.add(new Books("Robert Martin", "Clean Code", 1));
-            box.add(new Books("Kent Beck", "Test Driven Development", 0.7));
-            box.add(new CDs("Pink Floyd", "Dark Side of the Moon", 1973));
-            box.add(new CDs("Wigwam", "Nuclear Nightclub", 1975));
-            box.add(new CDs("Rendezvous Park", "Closer to Being Here", 2012));
-            System.out.println(box.toString());
+//            Books book1 = new Books("Fyodor Dostoevsky", "Crime and Punishment", 2);
+//            Books book2 = new Books("Robert Martin", "Clean Code", 1);
+//            Books book3 = new Books("Kent Beck", "Test Driven Development", 0.5);
+//            CDs cd1 = new CDs("Pink Floyd", "Dark Side of the Moon", 1973);
+//            CDs cd2 = new CDs("Wigwam", "Nuclear Nightclub", 1975);
+//            CDs cd3 = new CDs("Rendezvous Park", "Closer to Being Here", 2012);
+//            System.out.println(book1.toString());
+//            System.out.println(book2.toString());
+//            System.out.println(book3.toString());
+//            System.out.println(cd1.toString());
+//            System.out.println(cd2.toString());
+//            System.out.println(cd3.toString());
+//
+//            Box box1 = new Box(10);
+//            box1.add(new Books("Fyodor Dostoevsky", "Crime and Punishment", 2)) ;
+//            box1.add(new Books("Robert Martin", "Clean Code", 1));
+//            box1.add(new Books("Kent Beck", "Test Driven Development", 0.7));
+//            box1.add(new CDs("Pink Floyd", "Dark Side of the Moon", 1973));
+//            box1.add(new CDs("Wigwam", "Nuclear Nightclub", 1975));
+//            box1.add(new CDs("Rendezvous Park", "Closer to Being Here", 2012));
+//            System.out.println(box1.toString());
+//
+//            Box box2 = new Box(50);
+//            box2.add( box1);
 //Mooci Exercise 'Interface In A Box - Parts 1-4' <- End
+
+//Mooci Exercise: 'List as a method parameter' <- Start
+
+//Mooci Exercise 'List as a method parameter' <- End
 //----------------- Mooci Interface Practice Problems End -----------------
     }
 }
