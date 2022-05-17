@@ -19,7 +19,7 @@ public class Program {
             }
         }
     }
-    public static void printValues(HashMap<String, Book> hashmap){
+    public static void printValues(HashMap<String,Book> hashmap){
         System.out.println(hashmap.values());
     }
     public static void printValueIfNameContains(HashMap<String, Book> hashmap, String partialName){
