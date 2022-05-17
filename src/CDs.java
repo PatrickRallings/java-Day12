@@ -16,6 +16,11 @@ public class CDs implements Packable{
         return weight;
     }
 
+    @Override
+    public String title() {
+        return title;
+    }
+
     public String toString() {
         return artist + ": " + title + " ("+publicationYear+")";
     }

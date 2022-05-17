@@ -11,6 +11,11 @@ public class Box implements Packable{
         return totalWeight;
     }
 
+    @Override
+    public String title() {
+        return null;
+    }
+
     public Box(double maxWeight){
         this.maxWeight = maxWeight;
         this.itemsInBox = new ArrayList<>();
@@ -22,7 +27,7 @@ public class Box implements Packable{
             totalWeight += item.weight();
             numItems++;
         } else {
-            System.out.println("This item is too heavy.");
+            System.out.println(item.title()+" is too heavy.");
         }
     }
 
@@ -31,8 +36,6 @@ public class Box implements Packable{
         totalWeight -= item.weight();
         numItems--;
     }
-
-
 
     @Override
     public String toString() {

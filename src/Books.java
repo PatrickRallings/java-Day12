@@ -18,4 +18,9 @@ public class Books implements Packable{
     public double weight() {
         return weight;
     }
+
+    @Override
+    public String title() {
+        return title;
+    }
 }
