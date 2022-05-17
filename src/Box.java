@@ -8,9 +8,6 @@ public class Box implements Packable{
     ArrayList<Packable> itemsInBox;
 
     public double weight(){
-        for (int i = 0; i < itemsInBox.size(); i++){
-            totalWeight += itemsInBox.get(i).weight();
-        }
         return totalWeight;
     }
 
