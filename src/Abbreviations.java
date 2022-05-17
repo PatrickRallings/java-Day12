@@ -15,5 +15,4 @@ public class Abbreviations {
     public String findExplanationFor(String abbreviated){
         return abbreviationsMap.get(abbreviated.toLowerCase());
     }
-
 }
