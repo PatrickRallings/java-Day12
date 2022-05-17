@@ -20,16 +20,22 @@ public class Box implements Packable{
     }
 
     public void add(Packable item){
-        itemsInBox.add(item);
-        totalWeight += item.weight();
-        numItems++;
+        if (item.weight()+totalWeight < maxWeight){
+            itemsInBox.add(item);
+            totalWeight += item.weight();
+            numItems++;
+        } else {
+            System.out.println("This item is too heavy.");
+        }
     }
 
     public void remove(Packable item){
         itemsInBox.remove(item);
-        totalWeight += item.weight();
-        numItems++;
+        totalWeight -= item.weight();
+        numItems--;
     }
+
+
 
     @Override
     public String toString() {
