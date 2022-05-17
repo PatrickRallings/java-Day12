@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -109,6 +106,17 @@ public class Main {
 //
 //        System.out.println(mainProgram.returnSize(names));
 //Mooci Exercise 'Map as a method parameter' <- End
+
+//Mooci Exercise: 'Set as a method parameter' <- Start
+//        Set<String> names = new HashSet<>();
+//        names.add("first");
+//        names.add("first");
+//        names.add("second");
+//        names.add("second");
+//        names.add("second");
+//
+//        System.out.println(mainProgram.returnSize(names));
+//Mooci Exercise 'Set as a method parameter' <- End
 //----------------- Mooci Interface Practice Problems End -----------------
     }
 }
