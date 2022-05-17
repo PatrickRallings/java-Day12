@@ -1,0 +1,12 @@
+import java.util.List;
+import java.util.Map;
+
+public class mainProgram {
+
+    public static int returnSize(List list){
+        return list.size();
+    }
+    public static int returnSize(Map map){
+        return map.size();
+    }
+}

@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -80,20 +83,32 @@ public class Main {
 //
 //            Box box1 = new Box(10);
 //            box1.add(new Books("Fyodor Dostoevsky", "Crime and Punishment", 2)) ;
-//            box1.add(new Books("Robert Martin", "Clean Code", 1));
+//            box1.add(new Books("Robert Martin", "Clean Code", 1.5));
 //            box1.add(new Books("Kent Beck", "Test Driven Development", 0.7));
 //            box1.add(new CDs("Pink Floyd", "Dark Side of the Moon", 1973));
 //            box1.add(new CDs("Wigwam", "Nuclear Nightclub", 1975));
 //            box1.add(new CDs("Rendezvous Park", "Closer to Being Here", 2012));
 //            System.out.println(box1.toString());
-//
-//            Box box2 = new Box(50);
-//            box2.add( box1);
+////
+//            Box box2 = new Box(15);
+//            box2.add(box1);
 //Mooci Exercise 'Interface In A Box - Parts 1-4' <- End
 
 //Mooci Exercise: 'List as a method parameter' <- Start
-
+//        List<String> names = new ArrayList<>();
+//        names.add("First");
+//        names.add("Second");
+//        names.add("Third");
+//        System.out.println(mainProgram.returnSize(names));
 //Mooci Exercise 'List as a method parameter' <- End
+
+//Mooci Exercise: 'Map as a method parameter' <- Start
+//        Map<String, String> names = new HashMap<>();
+//        names.put("1", "first");
+//        names.put("2", "second");
+//
+//        System.out.println(mainProgram.returnSize(names));
+//Mooci Exercise 'Map as a method parameter' <- End
 //----------------- Mooci Interface Practice Problems End -----------------
     }
 }
